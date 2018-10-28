@@ -8,20 +8,20 @@
 
 /* Begin PBXBuildFile section */
 		F4ECA7C62185C1F5009258FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ECA7C52185C1F5009258FA /* AppDelegate.swift */; };
-		F4ECA7C82185C1F5009258FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ECA7C72185C1F5009258FA /* ViewController.swift */; };
-		F4ECA7CB2185C1F5009258FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4ECA7C92185C1F5009258FA /* Main.storyboard */; };
 		F4ECA7CD2185C1F7009258FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F4ECA7CC2185C1F7009258FA /* Assets.xcassets */; };
 		F4ECA7D02185C1F7009258FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4ECA7CE2185C1F7009258FA /* LaunchScreen.storyboard */; };
+		F4ECA7DB2185CE77009258FA /* SimpleTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ECA7DA2185CE77009258FA /* SimpleTableVC.swift */; };
+		F4ECA7DD2185CFE2009258FA /* SimpleTableVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ECA7DC2185CFE2009258FA /* SimpleTableVCCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		F4ECA7C22185C1F5009258FA /* TableViews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F4ECA7C52185C1F5009258FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F4ECA7C72185C1F5009258FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F4ECA7CA2185C1F5009258FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F4ECA7CC2185C1F7009258FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F4ECA7CF2185C1F7009258FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F4ECA7D12185C1F7009258FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F4ECA7DA2185CE77009258FA /* SimpleTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableVC.swift; sourceTree = "<group>"; };
+		F4ECA7DC2185CFE2009258FA /* SimpleTableVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableVCCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,8 +55,8 @@
 			isa = PBXGroup;
 			children = (
 				F4ECA7C52185C1F5009258FA /* AppDelegate.swift */,
-				F4ECA7C72185C1F5009258FA /* ViewController.swift */,
-				F4ECA7C92185C1F5009258FA /* Main.storyboard */,
+				F4ECA7DA2185CE77009258FA /* SimpleTableVC.swift */,
+				F4ECA7DC2185CFE2009258FA /* SimpleTableVCCell.swift */,
 				F4ECA7CC2185C1F7009258FA /* Assets.xcassets */,
 				F4ECA7CE2185C1F7009258FA /* LaunchScreen.storyboard */,
 				F4ECA7D12185C1F7009258FA /* Info.plist */,
@@ -124,7 +124,6 @@
 			files = (
 				F4ECA7D02185C1F7009258FA /* LaunchScreen.storyboard in Resources */,
 				F4ECA7CD2185C1F7009258FA /* Assets.xcassets in Resources */,
-				F4ECA7CB2185C1F5009258FA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,22 +134,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F4ECA7C82185C1F5009258FA /* ViewController.swift in Sources */,
 				F4ECA7C62185C1F5009258FA /* AppDelegate.swift in Sources */,
+				F4ECA7DD2185CFE2009258FA /* SimpleTableVCCell.swift in Sources */,
+				F4ECA7DB2185CE77009258FA /* SimpleTableVC.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		F4ECA7C92185C1F5009258FA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F4ECA7CA2185C1F5009258FA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		F4ECA7CE2185C1F7009258FA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -283,7 +275,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y5RS5J2285;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TableViews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -301,7 +293,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = Y5RS5J2285;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = TableViews/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
