@@ -12,6 +12,7 @@
 		F4ECA7D02185C1F7009258FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F4ECA7CE2185C1F7009258FA /* LaunchScreen.storyboard */; };
 		F4ECA7DB2185CE77009258FA /* SimpleTableVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ECA7DA2185CE77009258FA /* SimpleTableVC.swift */; };
 		F4ECA7DD2185CFE2009258FA /* SimpleTableVCCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ECA7DC2185CFE2009258FA /* SimpleTableVCCell.swift */; };
+		F4ECA7FF21862B8F009258FA /* SimpleTableVCHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = F4ECA7FE21862B8F009258FA /* SimpleTableVCHeader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F4ECA7D12185C1F7009258FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F4ECA7DA2185CE77009258FA /* SimpleTableVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableVC.swift; sourceTree = "<group>"; };
 		F4ECA7DC2185CFE2009258FA /* SimpleTableVCCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableVCCell.swift; sourceTree = "<group>"; };
+		F4ECA7FE21862B8F009258FA /* SimpleTableVCHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleTableVCHeader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +59,7 @@
 				F4ECA7C52185C1F5009258FA /* AppDelegate.swift */,
 				F4ECA7DA2185CE77009258FA /* SimpleTableVC.swift */,
 				F4ECA7DC2185CFE2009258FA /* SimpleTableVCCell.swift */,
+				F4ECA7FE21862B8F009258FA /* SimpleTableVCHeader.swift */,
 				F4ECA7CC2185C1F7009258FA /* Assets.xcassets */,
 				F4ECA7CE2185C1F7009258FA /* LaunchScreen.storyboard */,
 				F4ECA7D12185C1F7009258FA /* Info.plist */,
@@ -134,6 +137,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F4ECA7FF21862B8F009258FA /* SimpleTableVCHeader.swift in Sources */,
 				F4ECA7C62185C1F5009258FA /* AppDelegate.swift in Sources */,
 				F4ECA7DD2185CFE2009258FA /* SimpleTableVCCell.swift in Sources */,
 				F4ECA7DB2185CE77009258FA /* SimpleTableVC.swift in Sources */,
